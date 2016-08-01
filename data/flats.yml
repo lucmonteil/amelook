@@ -1,0 +1,29 @@
+luc:
+  owner_name: Luc Monteil
+  picture: card-paris.jpg
+  owner_picture: luc.png
+  name: Luc's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  ratings: 5
+
+abel:
+  owner_name: Abel Brown
+  picture: card-london.jpeg
+  owner_picture: abel.png
+  name: Abel's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+  ratings: 4
+
+gildas:
+  owner_name: Gildas Frémont
+  picture: card-brussels.jpeg
+  owner_picture: gildas.png
+  name: Gildas' palace
+  summary: Beautiful palace in Moleenbeek
+  city: Brussels, Belgique
+  wifi: false
+  ratings: 1

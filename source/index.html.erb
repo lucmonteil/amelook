@@ -41,45 +41,23 @@
 </div>
 
 <!-- Your cards code -->
+
 <div class="wrapper-grey padded">
   <div class="container">
-  <div class="text-center">
-    <h2>Your next trip</h2>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <div class="card" style="background-image: linear-gradient(-85deg, rgba(0, 101, 168, 0.12) 0%, rgba(0, 36, 61, 0.05) 50%), url('images/card-paris.jpg');">
-            <div class="card-category">Paris</div>
-            <div class="card-description">
-              <h2>Seb's Home</h2>
-              <p>Charming room with patio</p>
-            </div>
-            <%= image_tag "seb.jpg", class: "card-user avatar-large" %>
-            <a href="#" class="card-link"></a>
+    <div class="row">
+      <% data.flats.each do |owner, flat| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: url('<%= image_path flat.picture %>');">
+          <div class="card-category"><%= flat.city %></div>
+          <div class="card-description">
+            <h2><%= flat.name %></h2>
+            <p><%= flat.summary %></p>
           </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="card" style="background-image: linear-gradient(-85deg, rgba(0, 101, 168, 0.12) 0%, rgba(0, 36, 61, 0.05) 50%), url('images/card-brussels.jpeg');">
-            <div class="card-category">Brussels</div>
-            <div class="card-description">
-              <h2>Anne's Home</h2>
-              <p>Lovely house</p>
-            </div>
-            <%= image_tag "anne.jpg", class: "card-user avatar-large" %>
-            <a href="#" class="card-link"></a>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="card" style="background-image: linear-gradient(-85deg, rgba(0, 101, 168, 0.12) 0%, rgba(0, 36, 61, 0.05) 50%), url('images/card-london.jpeg');">
-            <div class="card-category">London</div>
-            <div class="card-description">
-              <h2>Romain's Home</h2>
-              <p>Nice flat in Picadilly</p>
-            </div>
-            <%= image_tag "romain.jpeg", class: "card-user avatar-large" %>
-            <a href="#" class="card-link"></a>
-          </div>
+          <%= image_tag flat.owner_picture, class:"card-user avatar avatar-large" %>
+          <%= link_to "#", "flats/#{owner}.html", class: "card-link" %>
         </div>
       </div>
+      <% end %>
     </div>
   </div>
 </div>

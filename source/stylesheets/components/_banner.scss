@@ -24,3 +24,9 @@
 .banner-content p {
   margin-bottom: 60px;
 }
+
+.banner-small {
+  height: 20vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+}
