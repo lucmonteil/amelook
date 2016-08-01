@@ -21,13 +21,13 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
-}
-.card-description h2 {
+  h2 {
   font-size: 22px;
-}
-.card-description p {
+  }
+  p {
   font-size: 14px;
   }
+}
 
 .card-link {
   position: absolute;
@@ -38,7 +38,7 @@
   z-index:2;
   background: black;
   opacity: 0;
-}
-.card-link:hover{
+  &:hover {
   opacity: 0.1;
+  }
 }

@@ -23,3 +23,25 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+
+// Wrapper
+
+.wrapper-grey {
+  background: $gray-lighter;
+}
+
+// Inputs
+
+.input {
+  width: 260px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.btn-input {
+  width: 130px;
+  height: 50px;
+  font-size: 18px;
+}
