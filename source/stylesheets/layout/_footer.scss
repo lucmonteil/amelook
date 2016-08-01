@@ -1,0 +1,20 @@
+/* Footer design */
+.footer {
+  background: #333333;
+  padding: 40px 0;
+  color: #CCCCCC;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+    color: #CCCCCC;
+    font-size: 30px;
+    letter-spacing: 20px;
+    transition: color 0.5s ease;
+}
+
+.footer a:hover {
+    color: #FFFF00;
+    transition: color 0.5s ease;
+}

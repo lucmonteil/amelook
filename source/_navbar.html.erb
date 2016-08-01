@@ -16,12 +16,13 @@
     </form>
 
     <!-- Text link -->
-    <a href="https://www.lewagon.com" class="navbar-wagon-item navbar-wagon-link">Wagon</a>
+    <%= link_to "Wagon", "https://www.lewagon.com", class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    <%= link_to "Team", "team.html", class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Notification link-->
+
     <a href="" class="navbar-wagon-item navbar-wagon-link">
       <div class="badge-container">
         <i class="fa fa-envelope-o"></i>
@@ -42,7 +43,7 @@
     </div>
 
     <!-- Button (call-to-action) -->
-    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
+    <%= link_to "Post stuff", "", class: "navbar-wagon-item navbar-wagon-button btn" %>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
