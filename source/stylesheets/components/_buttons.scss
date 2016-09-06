@@ -11,6 +11,11 @@
   background: $pink;
   border-color: $pink;
   }
+  &:active {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  }
 }
 
 .main-button-small {

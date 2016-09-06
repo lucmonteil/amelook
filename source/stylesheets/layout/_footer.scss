@@ -1,21 +1,30 @@
 /* Footer design */
 #footer {
-  background: $gray-dark;
-  padding: 40px 0;
-  color: $grey;
+  background: #6B717E;
+  padding: 10px 0;
+  color: white;
   display: flex;
   justify-content: space-around;
   a {
-  color: $grey;
-  font-size: 30px;
-  letter-spacing: 20px;
-  transition: color 0.5s ease;
-    &:hover {
-    color: $yellow;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 20px;
     transition: color 0.5s ease;
-    }
   }
   p {
-  margin: 10px 0px 10px;
+    margin: 15px 0px 0px;
   }
+  &:hover {
+    color: $blush;
+    transition: color 0.5s ease;
+  }
+}
+
+.fa:hover {
+  color: $blush;
+  transition: color 0.5s ease;
+}
+
+.list-inline {
+  margin-top: 8px;
 }

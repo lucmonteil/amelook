@@ -6,8 +6,8 @@
 
 // Paddings
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 
 .bottom-padded {
@@ -71,4 +71,11 @@
   }
 }
 
+.form-inline {
+  padding-top: 10px;
+}
+
+.bottom-padding {
+  padding-bottom: 30px;
+}
 
