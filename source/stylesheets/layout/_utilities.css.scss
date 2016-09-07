@@ -6,8 +6,8 @@
 
 // Paddings
 .padded {
-  padding-top: 2em;
-  padding-bottom: 3em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .bottom-padded {
@@ -33,6 +33,11 @@
 
 .wrapper-grey {
   background: $light-grey;
+}
+
+.wrapper-white {
+  background: white;
+  height: calc(100vh - 70px);
 }
 
 // Inputs

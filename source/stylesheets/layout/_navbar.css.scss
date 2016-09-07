@@ -15,6 +15,7 @@
   }
 }
 
+
 /* Optional class to fix the navbar on top */
 .navbar-wagon-fixed {
   position: fixed;
@@ -57,12 +58,12 @@
 .navbar-wagon-button {
   margin-left: 10px;
   padding: 0 20px;
-  border-radius: 20em;
-  line-height: 40px;
-  background-color: $bubble;
+  border-radius: 8px;
+  line-height: 32px;
+  background-color: #FFC4D1;
   color: white;
-  font-size: 14px;
-  border: 2px solid $bubble;
+  font-size: 17px;
+  border: 2px solid #FFC4D1;
   &:hover {
   color: white;
   background: $bubble;
