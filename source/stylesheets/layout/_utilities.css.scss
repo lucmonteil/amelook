@@ -10,6 +10,11 @@
   padding-bottom: 5em;
 }
 
+.little-padded {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .bottom-padded {
   padding-bottom: 5em;
 }
@@ -84,3 +89,16 @@
   padding-bottom: 30px;
 }
 
+.price-img{
+  width: 140px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: text-center;
+}
+
+.flex-item {
+  flex: 1 0 20%;
+}
