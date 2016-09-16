@@ -1,0 +1,18 @@
+#à remplir avec les données des mariées
+
+pauline:
+  name: Pauline D.
+  picture: pauline-face.png
+  city: Saint-Florent
+
+marion:
+  name: Marion M.
+  picture: marion-face.png
+  city: La Ferté Saint-Cyr
+
+agathe:
+  name: Agathe P.
+  picture: agathe-face.png
+  city: Varages
+
+

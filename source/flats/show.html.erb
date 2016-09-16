@@ -1,20 +1,20 @@
-<!-- source/flats/show.html.erb -->
+<!-- source/girls/show.html.erb -->
 
-<!-- Read from data.flats with owner's name as key -->
-<% flat = data.flats[owner] %>
+<!-- Read from data.girls with owner's name as key -->
+<% girl = data.girls[owner] %>
 
 <div class="banner-small" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('background.jpg');">
 </div>
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-6">
-      <div class="header-flat-owner">
-        <%= image_tag flat.owner_picture, class: "avatar-extra-large" %>
-        <p><%= flat.owner_name %></p>
+      <div class="header-girl-owner">
+        <%= image_tag girl.owner_picture, class: "avatar-extra-large" %>
+        <p><%= girl.owner_name %></p>
       </div>
-      <div class="header-flat-name">
-        <h1><%= flat.description %></h1>
-        <p><%= flat.city %></p>
+      <div class="header-girl-name">
+        <h1><%= girl.description %></h1>
+        <p><%= girl.city %></p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-4">
@@ -35,7 +35,7 @@
 
 
 
-<!-- Inject flat data in template -->
+<!-- Inject girl data in template -->
 
 
 

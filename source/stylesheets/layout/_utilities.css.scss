@@ -45,6 +45,21 @@
   height: calc(100vh - 70px);
 }
 
+.wrapper-pink {
+  background: $blush;
+  height: calc(100vh - 70px);
+  h1 {
+    color: $strong-grey;
+    font-size: 25px;
+    width: 1000px;
+    padding-left: 200px;
+  }
+}
+
+.wrapper-blush {
+  background: $blush;
+}
+
 // Inputs
 
 .input {
@@ -102,3 +117,9 @@
 .flex-item {
   flex: 1 0 20%;
 }
+
+
+
+
+
+

@@ -4,7 +4,7 @@
   <div class="banner-content">
     <h1>Un maquillage de princesse</h1>
     <p>à la hauteur de votre beauté</p>
-      <button type="submit" class="main-button">Quelques photos ?</button>
+      <a href="#portfolio" class="big-main-button">Quelques photos ?</a>
     </form>
   </div>
 </div>
@@ -22,7 +22,7 @@
     <div class="col-xs-12 col-sm-4">
       <div class="bride">
         <%= image_tag "bride.png"%>
-        <h2>"BBE" : Beautiful Bride Ever</h2>
+        <h2>"MBE" : Most Beautiful Bride </h2>
         <p>Un seul objectif : sublimer la mariée.</p>
       </div>
     </div>
@@ -37,20 +37,17 @@
 </div>
 <!-- Your cards code -->
 
-<div class="wrapper-grey padded">
+<div class="wrapper-grey padded" >
   <div class="container">
-  <h1 class="text-center bottom-padding">Quelques examples de mon portfolio</h1>
+  <h1 class="text-center bottom-padding" id="portfolio">Quelques examples de mon portfolio</h1>
     <div class="row">
-      <% data.flats.each do |owner, flat| %>
+      <% data.girls.each do |owner, girl| %>
       <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: url('<%= image_path flat.picture %>');">
-          <div class="card-category"><%= flat.city %></div>
+        <div class="card" style="background-image: url('<%= image_path girl.picture %>');">
           <div class="card-description">
-            <h2><%= flat.name %></h2>
-            <p><%= flat.summary %></p>
+            <h2><%= girl.name %> <br><br>
+            <%= girl.city %></h2>
           </div>
-          <%= image_tag flat.owner_picture, class:"card-user avatar avatar-large" %>
-          <%= link_to "#", "flats/#{owner}.html", class: "card-link" %>
         </div>
       </div>
       <% end %>

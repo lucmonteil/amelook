@@ -1,5 +1,5 @@
 .main-button {
-  padding: 0 20px;
+  padding: 10 20px;
   border-radius: 10px;
   line-height: 46px;
   background-color: $bubble;
@@ -15,6 +15,22 @@
   text-decoration: none;
   border: none;
   outline: none;
+  }
+}
+
+.big-main-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  line-height: 32px;
+  background-color: #FFC4D1;
+  color: white;
+  font-size: 17px;
+  border: 2px solid #FFC4D1;
+  &:hover {
+  color: white;
+  background: $bubble;
+  border-color: $bubble;
   }
 }
 

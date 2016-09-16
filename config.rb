@@ -93,6 +93,6 @@ end
 
 # Teams pages
 # nom du lien, nom du template
-data.flats.keys.each do |name|
-  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
+data.girls.keys.each do |name|
+  proxy "/girls/#{name}.html", "/girls/show.html", :locals => { :owner => name }, :ignore => true
 end
